@@ -25,7 +25,8 @@ Constructing POI Profile
 ### Modelling:
 
 1. Model Design:
-![model_design]('./image/model_design.jpg')
+
+![model_design](./image/model_design.jpg)
 - Initially, model will ask user for his perference defined by a 5-dimensioned vector. 
 - Content-based filtering model is triggered basing on the given user vector, and uses a neural network to find out end point with closest similarity with the user's preference. This point is then picked as recommended place to the user. 
 - The model will then interact with user ask if they want to check-out other similar places like this one. 
